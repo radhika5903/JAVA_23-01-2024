@@ -1,0 +1,52 @@
+package game_rock_paper_scissor;
+import java.util.*;
+
+
+public class game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the integer value for rock=4,paper=5,scissor=7");
+		int value_1=sc.nextInt();
+		System.out.println("enter the integer value for rock=4,paper=5,scissor=7");
+		int value_2=sc.nextInt();
+		int value_3=4;
+		int value_4=5;
+		int value_5=7;
+		if(value_1==value_2)
+		{
+			System.out.println("tie");
+		}
+		else if(value_1==value_3&&value_2==value_4)
+		{
+			System.out.println("paper wins");
+		}
+		else if(value_1==value_3&&value_2==value_5)
+		{
+			System.out.println("rock wins");
+		}
+		else if(value_1==value_4&&value_2==value_3)
+		{
+			System.out.println("paper wins");
+		}
+		else if(value_1==value_4&&value_2==value_5)
+		{
+			System.out.println("scissor wins");
+		}
+		else if(value_1==value_5&&value_2==value_3)
+		{
+			System.out.println("rock wins");
+		}
+		else if(value_1==value_5&&value_2==value_4)
+		{
+			System.out.println("scissor  wins");
+		}
+		else
+		{
+			System.out.println("YOU ENTERED WRONG");
+		}
+
+	}
+
+}
