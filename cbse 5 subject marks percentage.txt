@@ -1,0 +1,27 @@
+package Trial_Project;
+import java.util.Scanner;
+
+
+public class cbse_5_sub_percentage {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner marks=new Scanner(System.in);
+		byte mar1,mar2,mar3,mar4,mar5;
+		System.out.println("enter the first sub marks");
+	    mar1 =marks.nextByte();
+	    System.out.println("enter the second sub marks");
+	    mar2 =marks.nextByte();
+	    System.out.println("enter the third sub marks");
+	    mar3 =marks.nextByte();
+	    System.out.println("enter the fourth sub marks");
+	    mar4 =marks.nextByte();
+	    System.out.println("enter the fifth sub marks");
+	    mar5 =marks.nextByte();
+	    int res=(mar1+mar2+mar3+mar4+mar5)/5;
+	    System.out.print("the percentage of 5 sub are :");
+	    System.out.print(res);
+
+	}
+
+}
