@@ -1,0 +1,25 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class check_alphabet_or_not {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the alphabet");
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter the Character :");
+		char ch = input.next().charAt(0);
+ 
+		if(ch>='a' && ch<='z' || ch>='A' && ch<='Z')
+		{
+			System.out.println("This is a Alphabet");
+		}
+		else
+		{
+			System.out.println("This is a Not Alphabet");
+		}		
+
+	}
+
+}
