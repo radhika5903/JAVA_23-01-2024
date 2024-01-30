@@ -1,0 +1,22 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class check_no_multilple_of_5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("WELCOME TO RR CAL");
+		System.out.println("ENTER THE VALUE TO CHECK THE NUMBER IS DIVISIBLE BY 5 OR NOT");
+		int value=sc.nextInt();
+		int val=value/5;
+		if(value%5==0) {
+			System.out.println("THE NUMBER IS THE MULTIPLE OF 5 IT IS MULTIPLIED BY:"+val);
+		}
+		else {
+			System.out.println("THE NUMBER IS NOT DIVISIBLE BY 5 BECUASE IT IS NOT THE MUTIPLE:"+val);
+		}
+
+	}
+
+}
