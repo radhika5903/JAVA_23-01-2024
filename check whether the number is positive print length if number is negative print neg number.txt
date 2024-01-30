@@ -1,0 +1,22 @@
+package Trial_Project;
+import java.util.Scanner;
+public class check_positive_number_and_add {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("ENTER THE NUMBER");
+		int d=sc.nextInt();
+		if(d>0) {
+			String s=Integer.toString(d); 
+			int b=s.length();
+			System.out.println(b); 
+		}
+		else {
+			System.out.println("IT IS AN NEGATIVE NUBER");
+		}
+		
+
+	}
+
+}
