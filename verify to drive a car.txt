@@ -1,0 +1,21 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class drive_by_if_else {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter your age");
+		int a=sc.nextInt();
+		if(a>=18)
+		{
+			System.out.println("you can drive a car");
+		}
+		else
+		{
+			System.out.println("you can't drive a car");
+		}
+	}
+
+}
