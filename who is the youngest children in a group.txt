@@ -1,0 +1,26 @@
+package Trial_Project;
+import java.util.Scanner;
+public class youngest_3_friends {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("ENTER THE AJAY AGE ");
+		int ajay= sc.nextInt();
+		System.out.println("ENTER THE RAM AGE ");
+		int ram= sc.nextInt();
+		System.out.println("ENTER THE SHYAM AGE ");
+		int shyam= sc.nextInt();
+		if(ajay>shyam&&ram>shyam) {
+			System.out.println("shyam is youngest one the age of shyam is"+shyam);
+		}
+		else if(shyam>ajay&&ram>ajay) {
+			System.out.println("ajay is youngest one the age of ajay is"+ajay);
+		}
+		else {
+			System.out.println("ram is youngest one the age of ram is"+ram);
+		}
+
+	}
+
+}
