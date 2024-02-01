@@ -1,0 +1,41 @@
+package Trial_Project;
+import java.util.Scanner;
+
+
+public class week_days_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("ENTER THE VALUE FROM 1-7");
+		int value=sc.nextInt();
+		switch(value) {
+		case 1:
+			System.out.println("MONDAY");
+			break;
+		case 2:
+			System.out.println("TUESDAY");
+			break;
+		case 3:
+			System.out.println("WEDNESDDAY");
+			break;
+		case 4:
+			System.out.println("THRUSDAY");
+			break;
+		case 5:
+			System.out.println("FRIDAY");
+			break;
+		case 6:
+			System.out.println("SATURDAY");
+			break;
+		case 7:
+			System.out.println("SUNDAY");
+			break;
+		default:
+			System.out.println("PLEASE ENTER THE VALID VALUE");
+		}
+		System.out.println("YOUR CODE RUN SUCCESSFULLY IN RR TERMINAL");
+
+	}
+
+}
