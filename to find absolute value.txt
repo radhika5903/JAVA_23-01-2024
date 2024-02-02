@@ -1,0 +1,17 @@
+package Trial_Project;
+import java.util.Scanner;
+public class to_find_absolute_value {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the value");
+		int val=sc.nextInt();
+		if(val<0) {
+			int a=-(val);
+			System.out.println(a);
+		}
+
+	}
+
+}
