@@ -1,0 +1,40 @@
+package Trial_Project;
+import java.util.Scanner;
+public class division_distribution {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the math marks");
+		int math=sc.nextInt();
+		System.out.println("enter the math marks");
+		int hin=sc.nextInt();
+		System.out.println("enter the english marks");
+		int eng=sc.nextInt();
+		System.out.println("enter the science marks");
+		int sci=sc.nextInt();
+		System.out.println("enter the Social Science marks");
+		int sst=sc.nextInt();
+		int total=math+hin+eng+sci+sst;
+		float per=(math+hin+eng+sci+sst)/5;
+		if(per>=60) {
+			System.out.println("TOTAL MARKS"+total);
+			System.out.println("FIRST DEVISION PASS BY %"+per);
+		}
+		else if(per>=59&&per<=50) {
+			System.out.println("TOTAL MARKS"+total);
+			System.out.println("SECOND DEVISION PASS BY %"+per);
+		}
+		else if(per>=49&&per<=40) {
+			System.out.println("TOTAL MARKS"+total);
+			System.out.println("THIRD DEVISION PASS BY %"+per);
+		}
+		else {
+			System.out.println("TOTAL MARKS"+total);
+			System.out.println("FAIL!!!!!!!!!!!!!!!");
+			
+		}
+
+	}
+
+}
