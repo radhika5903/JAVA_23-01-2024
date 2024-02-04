@@ -1,0 +1,32 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class triangle_all_sides {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the first angle");
+		int angle1=sc.nextInt();
+		System.out.println("enter the sec angle");
+		int angle2=sc.nextInt();
+		System.out.println("enter the third angle");
+		int angle3=sc.nextInt();
+		if((angle1+angle2)>angle3) {
+			if((angle2+angle3)>angle1) {
+				if((angle3+angle1)>angle2) {
+					System.out.println("its a triangle");
+				}
+				else {
+				System.out.println("NOT A TRIANGLE");}
+			}
+			else {
+			System.out.println("NOT A TRIANGLE");}
+		}
+		else {
+			System.out.println("NOT A TRIANGLE");
+		}
+
+	}
+
+}
