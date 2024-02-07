@@ -1,0 +1,34 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class switch_case {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the value of age");
+		int value=sc.nextInt();
+		switch(value) {
+		case 18:
+			System.out.println("you can drive a car");
+			break;
+		case 40:
+			System.out.println("pls wear a seat belt");
+			break;
+		case 60:
+			System.out.println("your age is to high pls do not drive");
+			break;
+		default:
+			System.out.println("you are a good boy");
+			break;
+			
+		
+		
+		}
+		System.out.println("your code run successfully");
+			
+		
+
+	}
+
+}
