@@ -1,0 +1,13 @@
+package Trial_Project;
+
+public class leng {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String letter="rahul";
+		int value=letter.length();
+		System.out.println(value);
+
+	}
+
+}
