@@ -1,0 +1,13 @@
+package Trial_Project;
+
+public class lower_case {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word="RAhUl";
+		String value=word.toLowerCase();
+		System.out.println(value);
+
+	}
+
+}
