@@ -1,0 +1,28 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class profit_loss_cal {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("WELCOME TO RR CAL");
+		System.out.println("PLEASE ENTER YOU BASE AMOUNT");
+		int base_amount=sc.nextInt();
+		System.out.println("PLEASE ENTER YOUR SOLD AMOUNT");
+		int prof_amount=sc.nextInt();
+		if(base_amount<prof_amount) {
+			int value=prof_amount-base_amount;
+			System.out.println("PROFIT AMOUNT"+value);
+		}
+		else if(base_amount>prof_amount) {
+			int value=base_amount-prof_amount;
+			System.out.println("LOSS"+value);
+		}
+		else {
+			System.out.println("NO LOSS NO PROFIT");
+		}
+
+	}
+
+}
