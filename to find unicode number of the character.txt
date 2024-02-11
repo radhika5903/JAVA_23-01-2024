@@ -1,0 +1,17 @@
+package Trial_Project;
+import java.util.Scanner;
+public class unicode_with_index_number {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the string value");
+		String str=sc.next();
+		System.out.println("enter the index value");
+		int s=sc.nextInt();
+		int v=str.codePointAt(s);
+		System.out.println(v);
+
+	}
+
+}
