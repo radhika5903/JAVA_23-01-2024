@@ -1,0 +1,13 @@
+package Trial_Project;
+
+public class replace {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String word="Rahul is a good and a nice guy";
+		String value=word.replace('g', 'h');
+		System.out.println(value);
+
+	}
+
+}
