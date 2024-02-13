@@ -1,0 +1,23 @@
+package Trial_Project;
+import java.util.Scanner;
+
+
+public class sub_3_cgpa_marks {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner marks=new Scanner(System.in);
+		float mar1,mar2,mar3;
+		System.out.println("enter the first sub marks");
+		mar1=marks.nextInt();
+		System.out.println("enter the second sub marks");
+		mar2=marks.nextInt();
+		System.out.println("enter the third sub marks");
+		mar3=marks.nextInt();
+		float resu=(((mar1)/10)+((mar2)/10)+((mar3)/10))/3;
+		System.out.print("the cgpa of three sub is :");
+		System.out.print(resu);
+
+	}
+
+}
