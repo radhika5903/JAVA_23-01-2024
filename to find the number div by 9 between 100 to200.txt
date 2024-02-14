@@ -1,0 +1,23 @@
+package Trial_Project;
+import java.util.Scanner;
+public class to_find_number_btw_100_200_div_9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the value between 100 to 200");
+		int val=sc.nextInt();
+		int a=0;
+		for(int i=100;i<=val;i++) {
+			if(i%9==0) {
+				System.out.println(i);
+				a=a+i;
+				
+			}
+			
+		}
+		System.out.println("the total sum of number between divisible by 9   "+a);
+
+	}
+
+}
