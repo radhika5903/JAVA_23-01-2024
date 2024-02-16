@@ -1,0 +1,30 @@
+package pattern;
+
+import java.util.Scanner;
+
+public class hollow_rectangle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("WELCOME TO RR PATTERN");
+		System.out.println("ENTER THE FIRST VALUE OF PATTERN IN HORIZONTAL LINE");
+		int value=sc.nextInt();
+		System.out.println("ENTER THE SECOND VALUE OF PATTERN IN VERTICAL LINE");
+		int val=sc.nextInt();
+		for(int i=1;i<=value;i++) {
+			for(int j=1;j<=val;j++) {
+				if(i==1||j==1||i==value||j==val) {
+					System.out.print("*");
+				}
+				else {
+					System.out.print(" ");
+				}
+			
+			}
+			System.out.println(" ");
+		}
+
+	}
+
+}
