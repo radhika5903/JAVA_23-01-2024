@@ -1,0 +1,31 @@
+package pattern;
+import java.util.Scanner;
+public class number_pattern_pyramid {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("WELCOME TO RR PATTERN");
+		System.out.println("ENTER THE FIRST VALUE OF PATTERN IN HORIZONTAL LINE");
+		int row=sc.nextInt();
+		System.out.println("ENTER THE SECOND VALUE OF PATTERN IN VERTICAL LINE");
+		int col=sc.nextInt();
+		for(int i=1;i<=row;i++) {
+			for(int j=1;j<=row-i;j++) {
+			System.out.print(" ");
+			
+			}
+			for(int j=1;j<=i;j++) {
+			System.out.print(i);
+			}
+			for(int j=2;j<=i;j++) {
+			System.out.print(i);
+			}
+			System.out.println(" ");
+		}
+
+
+	}
+}
+
+
