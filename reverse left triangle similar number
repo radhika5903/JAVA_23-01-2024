@@ -1,0 +1,23 @@
+package pattern;
+import java.util.Scanner;
+public class reverse_right_pyramid_same_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("WELCOME TO RR PATTERN");
+		System.out.println("ENTER THE FIRST VALUE OF PATTERN IN HORIZONTAL LINE");
+		int value=sc.nextInt();
+		System.out.println("ENTER THE SECOND VALUE OF PATTERN IN VERTICAL LINE");
+		int val=sc.nextInt();
+		for(int i=1;i<=value;i++) {
+			for(int j=i;j<=val;j++) {
+				System.out.print(i);
+			
+			}
+			System.out.println(" ");
+		}
+
+	}
+
+}
