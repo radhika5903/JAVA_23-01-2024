@@ -1,0 +1,17 @@
+package pattern;
+import java.util.Scanner;
+public class print_star_vertical_dir {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("WELCOME TO RR PATTERN");
+		System.out.println("ENTER THE VALUE OF PATTERN IN HORIZONTAL LINE");
+		int value=sc.nextInt();
+		for(int i=0;i<value;i++) {
+			System.out.println("*");
+		}
+
+	}
+
+}
