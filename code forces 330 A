@@ -1,0 +1,33 @@
+import java.util.Scanner;
+ 
+public class Cakeminator {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int r, c;
+        int[] row, col;
+        r = scanner.nextInt();
+        c = scanner.nextInt();
+        row = new int[11];
+        col = new int[11];
+        String s;
+        for (int i = 0; i < r; ++i) {
+            s = scanner.next();
+            for (int j = 0; j < c; ++j) {
+                if (s.charAt(j) == 'S') {
+                    row[i] = 1;
+                    col[j] = 1;
+                }
+            }
+        }
+        int cakes = 0;
+        for (int i = 0; i < r; ++i) {
+            for (int j = 0; j < c; ++j) {
+                if (row[i] == 0 || col[j] == 0) {
+                    cakes += 1;
+                }
+            }
+        }
+        System.out.println(cakes);
+        scanner.close();
+    }
+}
