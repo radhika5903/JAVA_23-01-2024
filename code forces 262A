@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class tree {
+ 
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		int no=in.nextInt();
+		int k=in.nextInt();
+		int count=0;
+		for(int i=0;i<no;i++){
+			int c=0;
+			 int n=in.nextInt();
+			 while(n>0){
+				 if(n%10==7 || n%10==4) c++;
+				 n=n/10;
+			 }
+			 if(c<=k) count++;
+		}
+	  System.out.println(count);
+			
+ 
+	}
+ 
+}
