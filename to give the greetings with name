@@ -1,0 +1,15 @@
+package Trial_Project;
+import java.util.Scanner;
+public class name_greetings {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner wish=new Scanner(System.in);
+		String name=wish.next();
+		System.out.println("hello"+name+"have a good day!");
+		
+		
+
+	}
+
+}
