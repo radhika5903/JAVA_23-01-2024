@@ -1,0 +1,23 @@
+package Trial_Project;
+import java.util.*;
+
+public class maximum_2_numbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the first value ");
+		int value_1=sc.nextInt();
+		System.out.println("entr the second value ");
+		int value_2=sc.nextInt();
+		if(value_1>value_2)
+		{
+			System.out.println(value_1);
+		}
+		else
+		{
+			System.out.println(value_2);
+		}
+	}
+
+}
