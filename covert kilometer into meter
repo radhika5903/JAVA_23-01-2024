@@ -1,0 +1,17 @@
+package Trial_Project;
+import java.util.Scanner;
+
+public class kilometers_into_meters {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner len=new Scanner(System.in);
+		System.out.println("enter your value converted into meters");
+		int val=len.nextInt();
+		int a=val*1000;
+		System.out.print("your value after changing into meters :");
+		System.out.print(a);
+
+	}
+
+}
