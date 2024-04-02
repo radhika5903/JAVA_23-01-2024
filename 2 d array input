@@ -1,0 +1,29 @@
+package Trial_Project;
+import java.util.Scanner;
+public class array_2row_3colm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter the row value");
+		int a=sc.nextInt();
+		System.out.println("enter the column value");
+		int b=sc.nextInt();
+		
+		int [][]y=new int[a][b];
+		for(int i=0;i<a;i++) {
+			for(int j=0;j<b;j++) {
+				y[i][j]=sc.nextInt();
+				
+			}
+			
+		}
+		for(int i=0;i<y[a][b];i++) {
+			System.out.println(y[a][b]);
+		}
+		
+		
+
+	}
+
+}
